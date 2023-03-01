@@ -9,7 +9,7 @@
  * };
  */
 
-//Solution using hash map
+//1. Solution using hash map
 class Solution {
 public:
     ListNode *detectCycle(ListNode *head) {
@@ -26,7 +26,7 @@ public:
         return NULL;
     }
 };
-//solution using two pointer
+//2. solution using two pointer
 /**
  * Definition for singly-linked list.
  * struct ListNode {
