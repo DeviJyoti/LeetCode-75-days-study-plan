@@ -14,6 +14,7 @@ class Solution {
 public:
     vector<vector<int>> levelOrder(TreeNode* root) {
         //I have used bfs traversal
+        
        vector<vector<int>>ans;
        queue<TreeNode*>q;
        if(!root) return ans;
